@@ -13,7 +13,9 @@ Extent Reports
 
 ### Steps to clone execute the tests
 
-git clone 
+type below command in git bash and Enter
+
+git clone https://github.com/SpeedwayTech/Automation-framework-batch2.git
 ```
 
 ```
