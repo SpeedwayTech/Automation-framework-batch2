@@ -4,6 +4,7 @@
 .DS_Store
 .gitattributes
 app.log
+/screenshots/
 ##########################
 ## Java
 ##########################
