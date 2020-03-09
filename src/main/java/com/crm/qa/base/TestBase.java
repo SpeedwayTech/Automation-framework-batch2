@@ -40,7 +40,7 @@ public class TestBase {
 		
 		if(browserName.equals("chrome")){
 			System.setProperty("webdriver.chrome.driver",
-					"E:\\SpeedwayTech Trainings\\Jar files\\chromedriver\\chromedriver.exe");	
+					"C:\\Users\\user\\eclipse-workspace\\Automation-framework-batch2\\WebDrivers\\chromedriver.exe");
 			driver = new ChromeDriver(); 
 		}
 		else if(browserName.equals("FF")){
