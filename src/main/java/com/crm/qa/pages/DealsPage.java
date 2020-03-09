@@ -1,7 +1,11 @@
 package com.crm.qa.pages;
 
-import com.crm.qa.base.TestBase;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 
-public class DealsPage extends TestBase{
+public class DealsPage {
 
+	public DealsPage(WebDriver driver) {
+		PageFactory.initElements(driver, this);
+	}
 }
