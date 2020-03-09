@@ -93,10 +93,6 @@ public class TestUtil extends TestBase {
 			js.executeScript("$.growl.warning({ title: 'Warning!', message: 'your warning message goes here' });");
 		}else
 			System.out.println("no error message");
-		// jquery-growl w/ colorized output
-//		js.executeScript("$.growl.error({ title: 'ERROR', message: 'your error message goes here' });");
-//		js.executeScript("$.growl.notice({ title: 'Notice', message: 'your notice message goes here' });");
-//		js.executeScript("$.growl.warning({ title: 'Warning!', message: 'your warning message goes here' });");
 		Thread.sleep(5000);
 	}
 
