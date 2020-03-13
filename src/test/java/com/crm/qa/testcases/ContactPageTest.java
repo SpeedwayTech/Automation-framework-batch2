@@ -43,7 +43,7 @@ public class ContactPageTest extends TestBase{
 	
 	@Test
 	public void deleteContact() {
-		
+		System.out.println("Test case for deleting contact");
 		
 	}
 
