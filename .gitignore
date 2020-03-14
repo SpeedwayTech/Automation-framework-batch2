@@ -1,6 +1,6 @@
 /target/
 
-/test-output/
+
 .DS_Store
 .gitattributes
 app.log
