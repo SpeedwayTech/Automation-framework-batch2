@@ -14,6 +14,8 @@ import com.crm.qa.util.CommonFunctions;
 
 
 
+
+
 public class ContactPageTest extends TestBase{
 	LoginPage loginPage;
 	ContactPage contactPage;
@@ -38,14 +40,9 @@ public class ContactPageTest extends TestBase{
 		contactPage.clickOnSaveBtn();
 		WebElement contactNameTitle = driver.findElement(By.xpath("(//td[@class='tabs_header'])[1]"));
 		String actualTitleText = contactNameTitle.getText();		
-		Assert.assertEquals("abc xy", actualTitleText);	
+		Assert.assertEquals("abc xyz", actualTitleText);	
 	}
 	
-	@Test
-	public void deleteContact() {
-		
-		
-	}
 
 	@AfterMethod
 	public void tearDown(){
